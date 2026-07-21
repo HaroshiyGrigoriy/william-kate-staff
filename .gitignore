@@ -1,0 +1,15 @@
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+
+# IntelliJ IDEA
+.idea/
+
+# Logs
+*.log
