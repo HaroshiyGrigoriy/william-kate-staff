@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <meta charset="utf-8" /><title>Academy responsive QA</title
+  ><style>
+    body {
+      margin: 16px;
+      font: 16px system-ui;
+      background: #deded6;
+    }
+    main {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    iframe {
+      height: 800px;
+      border: 1px solid #555;
+      background: white;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  </style>
+  <h1>Проверка мобильного модуля: 320 и 390 пикселей</h1>
+  <main>
+    <section>
+      <p>320 × 800</p>
+      <iframe
+        title="Модуль 320"
+        src="/academy-module.html"
+        width="320"
+      ></iframe>
+    </section>
+    <section>
+      <p>390 × 800</p>
+      <iframe
+        title="Модуль 390"
+        src="/academy-module.html"
+        width="390"
+      ></iframe>
+    </section>
+  </main>
+</html>
